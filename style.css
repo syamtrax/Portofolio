@@ -1,0 +1,147 @@
+/*.jumbotron {
+  background-image: url("assets/img/background.jpg");
+}*/
+.jumbotron h1,
+.jumbotron p {
+  color: white;
+}
+.about-pic {
+  width: 300px;
+}
+
+body {
+  background-color: #1e1e1e;
+  font-family: "Montserrat", sans-serif;
+  min-height: 2000px;
+  /*background-image: url(assets/img/body-background.jpg);*/
+}
+
+.card-text .wave {
+  position: absolute;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+#about,
+#projects,
+#contact {
+  padding-bottom: 5rem;
+}
+
+.card-text {
+  color: #1e1e1e;
+}
+
+.switch {
+  color: var(--switch-color);
+}
+
+/*Light Mode*/
+:root {
+  --switch-color: #bebebe;
+  --bg-color-2: #1e1e1e;
+  --font-color: white;
+  --bg-color: rgba(102, 102, 102, 0.9);
+  --heading-color: #2e2e2e;
+}
+[theme="light"] {
+  --switch-color: white;
+  --bg-color-2: #bebebe;
+  --font-color: #1e1e1e;
+  --bg-color: rgba(255, 255, 255, 0.9);
+  --button-color: white;
+  --heading-color: #535353;
+}
+/*#projects {
+  background-color: var(--bg-color-2);
+}
+*/
+.jumbotron {
+  /*background-color: var(--bg-color-2);*/
+  padding-top: 11rem;
+  padding-bottom: 6rem;
+}
+
+#projects,
+#about,
+footer {
+  background-color: var(--bg-color);
+}
+.btn,
+.ftr {
+  color: var(--button-color);
+}
+#contact,
+#about,
+#myproject,
+a,
+.ftr {
+  color: var(--font-color);
+}
+.navbar/*footer*/,
+.btn {
+  background-color: var(--heading-color);
+}
+footer {
+  padding-top: 6rem;
+  bottom: 0;
+}
+h1,
+p {
+  color: var(--font-color);
+}
+
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+.theme-switch input {
+  display: none;
+}
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 26px;
+}
+input:checked + .slider {
+  background-color: #66bb6a;
+}
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/*carousel*/
+
+.experience-img {
+  background-color: rgb(0, 0, 0, 0.9);
+  width: 1300px;
+}

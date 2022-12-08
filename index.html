@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--I'm using bootstrap starter html-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+    <!---->
+    <!--Bootstrap icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <!---->4
+    1
+    <!--Javascript-->
+    <!--<script src="assets/js/main.js"></script>
+    <!---->
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio | Satria Syammahestatma</title>
+    <!---->
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <!---->
+  </head>
+  <body id="home">
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand nav-link active" aria-current="page" href="#home">Satria Syammahestatma</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-2">
+            <!--<li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiences">My Experiences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">My Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+          <label for="checkbox" class = "theme-switch ms-auto">
+            <input type = "checkbox" id = "checkbox"></input>
+            <div class = "slider round"></div>
+          </label>
+          <div><p class = "switch ms-3 pt-3">Switch Mode</p></div>
+        </div>
+      </div>
+    </nav>
+    <!--End for Navigation Bar-->
+    <!--Here is the jumbotrom-->
+    <section class="jumbotron text-center text-white">
+      <img src="assets/img/profile-pic.jpg" alt="" width="200px" class="rounded-circle" />
+      <h1 class="display-4">Satria Syammahestatma</h1>
+      <p class="lead">Student at Gadjah Mada University</p>
+    </section>
+    <!--End of the jumbotron-->
+    <!--My about section is here-->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2 id="aboutme" class = "fw-bold">About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5">
+          <div class="col-lg-4">
+            <img class = "about-pic" src="assets/img/about-pic.jpg" alt="">
+          </div>
+          <div class="col-lg-4 text-justify">
+            <p>Reliable intern studying Web Development, seeking an internship opportunity to expand skills and gain valuable real-world experieces. Ambitious and anxious to obtain an entry-level Web Developer position to help launch career while achieving company goals. Organized and dependable candidate, successful at managing multiple priorities with a positive attitude. Have a willingness to take on added responsibilities to achieves team goals</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--And this is the end-->
+    <!--My experiences-->
+    <section id= "experiences">
+      <div class="container mb-5">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2 class = "fw-bold text-white">My Experiences</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col  justify-content-center">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <img class = "experience-img"src="assets/img/experience-1.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class= "fw-bold">KTP</h5>
+                    <p class = "captions text-white fw-sm">Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class = "experience-img"src="assets/img/experience-2.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class= "fw-bold">JOINTS</h5>
+                    <p class = "captions text-white fw-sm">Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item active">
+                  <img class = "experience-img" src="assets/img/experience-3.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class= "fw-bold">EMOSI</h5>
+                    <p class = "captions text-white fw-sm">Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class = "experience-img" src="assets/img/experience-4.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class= "fw-bold">HBKI</h5>
+                    <p class = "captions text-white fw-sm">Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--still working on it-->
+    <!--I'll place all my projects here-->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2 id="myproject" class = "fw-bold" >My Projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="assets/cards/1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Ironic Front-End Prototype. Using HTML, CSS, and Jquery(slick)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="assets/cards/2.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">My Front-End Prototype. Using HTML, CSS, Javascript, and Bootstrap</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--I think its enough-->
+    <!--This is the place for you to contact me-->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col"><h2 class="fw-bold text-white">Contact Me</h2></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-white">
+            <div class="mb-3">
+              <label for="Name" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control mb-3" id="name" aria-describedby="name" />
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="massages" class="form-label">Pesan</label>
+                <textarea class="form-control" id="massages" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn mb-3">Submit</button>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center mb-3 text-white ">
+          <div class="col-md-4 border-bottom">You can also follow me on </div>
+        </div>
+        <div class="row justify-content-center text-center text-white">
+          <div class="col-md-2"><a class = "links text-white" href="https://wa.me/087802558582"><img src="assets/logo/whatsapp.ico" alt="">Whatsapp</a></div>
+          <div class="col-md-2"><a class = "links text-white" href="https://www.linkedin.com/in/satria-syammahestatma-9b66431b9/"><img src="assets/logo/linkedin.ico" alt="">LinkedIn</a></div>
+          <div class="col-md-2"><a class = "links text-white" href="https://www.instagram.com/satriasyamm/"><img src="assets/logo/instagram.ico" alt="">Instagram</a></div>
+          <div class="col-md-2"><a class = "links text-white" href="https://github.com/syamtrax"><img src="assets/logo/github.ico" alt="">GitHub</a></div>
+        </div>
+      </div>
+    </section>
+    <!--End of Contact Me-->
+    <!--This is my footer-->
+    <footer class="text-white text-center pb-5">
+      <p class = "ftr"> &#169 2021 Satria Syammahestatma. All rights reserved.</p>
+    </footer>
+    <!--Footer-->
+    <!--Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src = "assets/js/main.js"></script>
+    <!--All my javascript files is here-->
+  </body>
+</html>
