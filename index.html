@@ -102,34 +102,50 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item">
-                  <img class = "experience-img"src="assets/img/experience-1.png" class="d-block w-100" alt="...">
+                  <img class = "experience-img"src="assets/img/experience-1.png" alt="Gambar IDCard">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5 class= "fw-bold">KTP</h5>
-                    <p class = "captions text-black fw-sm">ID Card</p>
+                    <h5 class= "fw-bold text-black">ID Card</h5>
+                    <p class = "captions text-black fw-sm">ID Card HIMAKOM & OTI</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img class = "experience-img"src="assets/img/experience-2.png" class="d-block w-100" alt="...">
+                  <img class = "experience-img"src="assets/img/experience-2.png"  alt="Gambar JOINTS">
                   <div class="carousel-caption d-none d-md-block">
                     <h5 class= "fw-bold">JOINTS</h5>
                     <p class = "captions text-white fw-sm">Jogja Information and Technology Session</p>
                   </div>
                 </div>
                 <div class="carousel-item active">
-                  <img class = "experience-img" src="assets/img/experience-3.png" class="d-block w-100" alt="...">
+                  <img class = "experience-img" src="assets/img/experience-3.png" alt="Gambar EMOSI">
                   <div class="carousel-caption d-none d-md-block">
                     <h5 class= "fw-bold">EMOSI</h5>
                     <p class = "captions text-white fw-sm">Easy Money Series</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img class = "experience-img" src="assets/img/experience-4.png" class="d-block w-100" alt="...">
+                  <img class = "experience-img" src="assets/img/experience-4.png" alt="Gambar hbki">
                   <div class="carousel-caption d-none d-md-block">
                     <h5 class= "fw-bold">HBKI</h5>
                     <p class = "captions text-white fw-sm">Himakom Berkunjung ke Kampus dan Industri</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class = "experience-img" height="870px" src="assets/img/experience-5.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class= "fw-bold">DEXA Innovation Awards</h5>
+                    <p class = "captions text-white fw-sm">Data Analytics Category DEXA Innovation Award</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class = "experience-img" height="870px" src="assets/img/experience-6.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class= "fw-bold">BEM KM FMIPA</h5>
+                    <p class = "captions text-white fw-sm">Digital Data Analytics Division</p>
                   </div>
                 </div>
               </div>
@@ -210,17 +226,19 @@
         <div class="row justify-content-center">
           <div class="col-md-6 text-white">
             <div class="mb-3">
-              <label for="Name" class="form-label">Nama Lengkap</label>
-              <input type="text" class="form-control mb-3" id="name" aria-describedby="name" />
+              <form action="https://getform.io/f/2883ac1d-954e-49ce-a707-b1fd23cee773" method="POST">
+              <label for="Name"  class="form-label">Nama Lengkap</label>
+              <input type="text" name ="name" class="form-control mb-3" id="name" aria-describedby="name" placeholder="Masukkan nama Anda" />
               <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
+                <label for="email"  class="form-label">Email address</label>
+                <input type="email" name="email" class="form-control" id="email" aria-describedby="email" placeholder="Masukkan email Anda"/>
               </div>
               <div class="mb-3">
                 <label for="massages" class="form-label">Pesan</label>
-                <textarea class="form-control" id="massages" rows="3"></textarea>
+                <input name = "message" class="form-control" id="massages" rows="3" placeholder="Berikan pesan atau komentar"/>
               </div>
               <button type="submit" class="btn mb-3">Submit</button>
+              </form>
             </div>
           </div>
         </div>

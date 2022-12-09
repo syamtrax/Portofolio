@@ -7,6 +7,7 @@
 }
 .about-pic {
   width: 300px;
+  border-radius: 40px;
 }
 
 body {
@@ -144,4 +145,12 @@ input:checked + .slider:before {
 .experience-img {
   background-color: rgb(0, 0, 0, 0.9);
   width: 1300px;
+  height: 850px;
+  object-fit: cover;
+}
+
+.img-dexa {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
 }
