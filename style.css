@@ -5,9 +5,9 @@
 .jumbotron p {
   color: white;
 }
-.about-pic img {
+.about-pic {
   width: 300px;
-  border-radius: 25x;
+  border-radius: 40px;
 }
 
 body {
@@ -142,7 +142,15 @@ input:checked + .slider:before {
 
 /*carousel*/
 
-.img-container img {
+.img-container{
+  align-items: center;
+  width: 100%;
+  max-width: 1300px;
+  height: 100%;
+  max-height: 650px;
+}
+
+.img-container img{
   display: block;
   object-fit: cover;
 }
