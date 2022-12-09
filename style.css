@@ -142,7 +142,7 @@ input:checked + .slider:before {
 
 /*carousel*/
 
-.img-container {
+.img-container{
   align-items: center;
   width: 100%;
   max-width: 1300px;
@@ -150,7 +150,7 @@ input:checked + .slider:before {
   max-height: 650px;
 }
 
-.img-container img {
+.img-container img{
   display: block;
   object-fit: cover;
   height: 100%;
